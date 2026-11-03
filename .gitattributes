@@ -1,0 +1,5 @@
+# Detect text files and normalize them to LF in the repository.
+* text=auto
+
+# Jupyter notebooks are JSON text; keep their working copies on LF too.
+*.ipynb text eol=lf
